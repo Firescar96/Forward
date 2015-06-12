@@ -1,0 +1,15 @@
+<template name="send">
+	<body>
+		<div id="send-container">
+			<h1>Send Ether</h1>
+			<h2 id="name"></h2>
+			<h2>your address: <strong id="coinbase"></strong></h2>
+			<h2>balance: <strong id="balance"></strong></h2>
+			<h2>How much would you like to donate?</h2>
+			<form id="send-form" name="send-form" action="/thanks">
+				<input type="number" name="amount" placeholder="amount" id="amount"/>
+				<button id="send-button" class="button">Enter</button>
+			</form>
+		</div>
+	</body>
+</template>
