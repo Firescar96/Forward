@@ -1,4 +1,6 @@
-Install <a href="https://github.com/ethereum/pyethereum">Pythereum</a>
+###MyFirstDapp dApp
+
+Install Pythereum
 
 run <code>cd contract_serpent && python rpcserver.py</code>
 

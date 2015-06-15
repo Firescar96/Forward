@@ -1,5 +1,9 @@
-# Forward
-Serpent contracts with a Meteor frontend
+#MyFirstDapp
+Serpent contracts with Node Client/Server
 
-Further instructions are located in the respective directories for running the contracts and running the front end.
-With a minimal amount of commands you'll be running Forward, an example dApp for forwarding transactions to a static address.
+MyFirstDapp demonstrates the interaction between a client, server, and contract. Currently it sends requested amounts of ether to a static address.
+
+Feel free to extend it for your own projects, such as:
+* Ether Fountains
+* Automatic ether forwarding
+* Scripting a regular charitable payment
