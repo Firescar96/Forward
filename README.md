@@ -1,7 +1,7 @@
-#MyFirstDapp
-Serpent contracts with Node Client/Server
+#Forward
+Serpent contracts with Meteor Client/Server
 
-MyFirstDapp demonstrates the interaction between a client, server, and contract. Currently it sends requested amounts of ether to a static address.
+Forward (MyFirstDapp) demonstrates the interaction between a client, server, and contract. Currently it sends requested amounts of ether to a static address.
 
 Feel free to extend it for your own projects, such as:
 * Ether Fountains
