@@ -58,15 +58,14 @@ Template.send.rendered = function() {
     var coinbase = web3.eth.coinbase;
     var InterfaceContract = web3.eth.contract(interface_abi);
     console.log(InterfaceContract)
-    var amount = document.getElementById("amount");
-    console.log(amount.value)
+    var amount = $("#amount").val();
+    console.log(amount)
 
     window.interface_contract = InterfaceContract.at('0x9847fb68d77fcfc2699df45392388f56498793ba');
-    var total_sent = amount.value
     window.interface_contract.send_ether.sendTransaction(
-      total_sent,
+      amount,
       { from: coinbase,
-        value: total_sent,
+        value: amount,
         gas: 1000000000000000,
         gasPrice: 1
       },
